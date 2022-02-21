@@ -1,0 +1,1 @@
+<?xml version="1.0" ?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:ditBonjourResponse xmlns:ns2="http://allan.ensup.eu/"><return>Hello, toto!</return></ns2:ditBonjourResponse></S:Body></S:Envelope>

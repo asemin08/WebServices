@@ -7,6 +7,10 @@ Test de mise en place de webservice sous SOAP
 ## Pré-requis
 * java jdk 8
 
+##Pour le ruby executer cette commande avant le script permet de télécghager dles dépendance de soap
+
+gem install soap4r-ruby1.9
+
 ## liste des projet
 
 Nom du projet | Description | Lien
