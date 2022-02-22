@@ -1,5 +1,5 @@
 
-package client;
+package clientTestAutre;
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -17,20 +17,20 @@ import javax.xml.ws.WebServiceFeature;
  * Generated source version: 2.2
  * 
  */
-@WebServiceClient(name = "HelloWSService", targetNamespace = "http://allan.ensup.eu/", wsdlLocation = "http://localhost:8888/hello?wsdl")
+@WebServiceClient(name = "HelloWSService", targetNamespace = "http://soap.ensup.eu/", wsdlLocation = "http://192.168.50.147:8888/hello?wsdl")
 public class HelloWSService
     extends Service
 {
 
     private final static URL HELLOWSSERVICE_WSDL_LOCATION;
     private final static WebServiceException HELLOWSSERVICE_EXCEPTION;
-    private final static QName HELLOWSSERVICE_QNAME = new QName("http://allan.ensup.eu/", "HelloWSService");
+    private final static QName HELLOWSSERVICE_QNAME = new QName("http://soap.ensup.eu/", "HelloWSService");
 
     static {
         URL url = null;
         WebServiceException e = null;
         try {
-            url = new URL("http://localhost:8888/hello?wsdl");
+            url = new URL("http://192.168.50.147:8888/hello?wsdl");
         } catch (MalformedURLException ex) {
             e = new WebServiceException(ex);
         }
@@ -65,11 +65,11 @@ public class HelloWSService
     /**
      * 
      * @return
-     *     returns Hello
+     *     returns IHello
      */
     @WebEndpoint(name = "HelloWSPort")
-    public Hello getHelloWSPort() {
-        return super.getPort(new QName("http://allan.ensup.eu/", "HelloWSPort"), Hello.class);
+    public IHello getHelloWSPort() {
+        return super.getPort(new QName("http://soap.ensup.eu/", "HelloWSPort"), IHello.class);
     }
 
     /**
@@ -77,11 +77,11 @@ public class HelloWSService
      * @param features
      *     A list of {@link javax.xml.ws.WebServiceFeature} to configure on the proxy.  Supported features not in the <code>features</code> parameter will have their default values.
      * @return
-     *     returns Hello
+     *     returns IHello
      */
     @WebEndpoint(name = "HelloWSPort")
-    public Hello getHelloWSPort(WebServiceFeature... features) {
-        return super.getPort(new QName("http://allan.ensup.eu/", "HelloWSPort"), Hello.class, features);
+    public IHello getHelloWSPort(WebServiceFeature... features) {
+        return super.getPort(new QName("http://soap.ensup.eu/", "HelloWSPort"), IHello.class, features);
     }
 
     private static URL __getWsdlLocation() {

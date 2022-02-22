@@ -1,4 +1,8 @@
-package client;
+package clientTestAutre;
+
+
+import clientTestAutre.HelloWSService;
+import clientTestAutre.IHello;
 
 public class MonCodeClient {
 
@@ -8,9 +12,9 @@ public class MonCodeClient {
         HelloWSService helloWSService = new HelloWSService();
 
         // 2. Récupération du client
-        Hello port = helloWSService.getHelloWSPort();
+        IHello port = helloWSService.getHelloWSPort();
 
-        String resultat = port.ditBonjour("toto");
+        String resultat = port.ditBonjour("ALlan");
 
         System.out.println(resultat);
     }
