@@ -11,4 +11,4 @@ Test de mise en place de webservice sous SOAP
 
 Nom du projet | Description | Lien
 ---|---|----
-tp1|Créer un WebService SOAP à partir du JDK| [tp1](https://github.com/asemin08/WebServices)
+tp1|Créer un WebService SOAP à partir du JDK| [tp1](https://github.com/asemin08/WebServicesSOAP)
