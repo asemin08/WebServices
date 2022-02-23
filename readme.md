@@ -9,7 +9,7 @@ TP2 : Créer un WebService SOAP à partir du JDK
 ## Pré-requis
 * java jdk 8
 
-## test webservice
+## Démarrage du Webservice
 1. Ouvrir un terminal à la racine du dossier
 2. Se place dans le dossier src : ```cd src/```
 3. Compiler les classe java : ```javac eu/ensup/allan/*.java```
