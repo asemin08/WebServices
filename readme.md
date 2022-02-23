@@ -11,7 +11,7 @@ tp3 : Créer un client Java d’un WebService SOAP à partir du JDK
 * Perl
 * Ruby
 
-## Tester les client
+## Démarrage du Webservice et des clients
 
 ### Démarrer le webservice 
 1. Ouvrir un terminal à la racine du dossier
