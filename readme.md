@@ -17,7 +17,6 @@ TP2 : Créer un WebService SOAP à partir du JDK
 5. Pour visualiser le WSDL cliquer sur le lien : [wsdl](http://localhost:8888/hello?wsdl)
 <br/> 
 Ou
-<br/>
 6. Ouvrir un navigateur
 7. Ce rendre à l'url suivante pour récupérer le wsdl :  http://localhost:8888
 
