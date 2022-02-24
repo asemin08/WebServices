@@ -22,8 +22,7 @@ tp5: Mise en place d'un webservice depuis une classe java. Assistant de créatio
 2. Ouvrir un terminal à la racine du dossier
 3. Générer le webservice : ```wsimport -p helloObjisClient -keep http://localhost:8888/hello?wsdl```
 4. Compiler le client : ```javac -d . HelloObjisClient.java ```
-5. Démarrer le client : ```java helloObjisClient.HelloObjisClient
-```
+5. Démarrer le client : ```java helloObjisClient.HelloObjisClient```
 
 ## liste des projet
 
