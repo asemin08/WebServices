@@ -18,7 +18,7 @@ tp6: Demo WebService JAX-WS déployé dans un serveur d’application. Mise en p
 3. Générer le war du webservice : ```mvn clean package```
 4. Vérifier si le fichier webservice.war à été créé dans le dossier du projet => webservice => target 
 5. Ouvrir un navigateur
-6. Ce rendre sur la page pour déployer un war sur tomcat :(si localhost [tomcat](http://localhost:8080/manager/html))
+6. Ce rendre sur la page pour déployer un war sur tomcat :(si installer en local [tomcat](http://localhost:8080/manager/html))
 7. S'authentifier
 8. Trouver la section "Fichier WAR à déployer"
 9. Cliquer sur "Choisir un fichier" et séléctionner le fichier webservice.war
