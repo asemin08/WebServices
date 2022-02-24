@@ -30,7 +30,6 @@ tp6: Demo WebService JAX-WS déployé dans un serveur d’application. Mise en p
 1. Ouvrir un navigateur
 2. Se rendre sur [monEndpoint](http://localhost:8080/webservice/hello)
 3. Voir le tableau récapitulatif s'afficher
-```
 
 ## liste des projet
 
