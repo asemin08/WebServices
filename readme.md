@@ -3,6 +3,7 @@
 ## Projet
 
 Test de mise en place de webservice sous SOAP
+tp5: Mise en place d'un webservice depuis une classe java. Assistant de création Client et WebService à partir d’une Classe (ws)
 
 ## Pré-requis
 * java jdk 8
@@ -33,3 +34,4 @@ tp3|Créer un client Java d’un WebService SOAP à partir du JDK| [tp3](https:/
 tp4|Mise en oeuvre d’intercepteurs (Handlers) de messages SOAP | [tp4](https://github.com/asemin08/WebServicesSOAP/tree/tp4)
 tp5|assistant création Client et WebService à partir d’une Classe  | [tp5](https://github.com/asemin08/WebServicesSOAP/tree/tp5)
 tp6|Demo WebService JAX-WS déployé dans un serveur d’application. |[tp6](https://github.com/asemin08/WebServicesSOAP/tree/tp6)
+TpTypesComplexes|Tutoriel Web Service Soap : types complexes. |[TpTypesComplexes](https://github.com/asemin08/WebServicesSOAP/tree/TpTypesComplexes)
